@@ -11,8 +11,12 @@ h1 {
 
 /* Estilos de cabecera y pie de pagina */
 .footer , .header{
-  background-color: rgb(27, 40, 84);
+  background-color: rgb(0, 48, 103);
   color: white;
+}
+
+.footer {
+  padding-left: 5%;
 }
 
 .header {
@@ -45,6 +49,10 @@ h1 {
 .nav a {
   vertical-align: middle;
   padding-left: 1%;
+}
+
+.help.ayuda {
+  border-right: none;
 }
 
 .help {
@@ -116,10 +124,14 @@ hr {
   height: auto;
 }
 .centro hr, .imagenesCuatro hr {
-  width: 38%;
+  width: 40%;
 }
 
 .imagenesTres img{
   padding-left: 1%;
   padding-top: 1%
+}
+
+.imagenesCuatro {
+  padding-bottom: 5%
 }
