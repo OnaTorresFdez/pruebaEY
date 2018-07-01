@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+  font-size: 0.9em;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+h1 {
+  padding-top: 2%;
+}
+
+/* Estilos de cabecera y pie de pagina */
+.footer , .header{
+  background-color: rgb(27, 40, 84);
+  color: white;
+}
+
+.header {
+  display: flex;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.phone {
+  width: 40%;
+}
+
+.fa-phone {
+  padding: 1% 1%;
+  transform: rotatey(180deg);
+}
+
+.nav {
+  width: 100%;
+  padding-right: 1%;
+}
+
+.nav div {
+  padding: 1% 1%;
+  overflow-y: none;
+  display: inline;
+}
+
+
+.nav a {
+  vertical-align: middle;
+  padding-left: 1%;
+}
+
+.help {
+  width: 80%;
+}
+
+.help a {
+  padding-right: 5px;
+  padding-left: 5px;
+  border-right: white solid 1px;
+}
+
+.adressContact{
+  display: inline-flex;
+  text-align: left;
+  width: 80%;
+}
+
+.adress {
+  padding-right: 5%;
+}
+
+hr {
+  width: 80%;
+}
+
+/*Estilos Title*/
+.social {
+  float: right;
+}
+
+.logo {
+  padding-left: 15%;
+}
+
+
+/* Estilos Menu */
+.menuListado {
+  background-color: white;
+  padding: 1% 0;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: lightgray;
+}
+
+.menu hr {
+  width: 100%;
+  border:1px solid lightgray;
+}
+
+.menu li {
+  display: inline;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-right: lightgray solid 1px;
+}
+
+.menu .contacto {
+  border-right: none;
+}
+
+/* Estilos Content*/
+.centro {
+  width: 100%;
+  height: auto;
+}
+.centro hr, .imagenesCuatro hr {
+  width: 38%;
+}
+
+.imagenesTres img{
+  padding-left: 1%;
+  padding-top: 1%
+}
